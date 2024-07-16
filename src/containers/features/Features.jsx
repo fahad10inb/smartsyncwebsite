@@ -1,4 +1,4 @@
-import AlgorithmImage from 'src/assets/Algorithm.jpeg';
+import algorithmImage from 'src/assets/Algorithm.jpeg';
 import React from 'react';
 import Feature from '../../components/feature/Feature';
 import './features.css';
