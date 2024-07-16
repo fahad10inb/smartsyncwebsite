@@ -1,7 +1,8 @@
+import algorithmImage from 'src/assets/Algorithm.jpeg';
 import React from 'react';
 import Feature from '../../components/feature/Feature';
 import './possibility.css';
-const algorithmImage = require('C:/DATASET2/SmartSync/SmartSync-Traffic/GCD AI/smartsync/src/assets/Algorithm.jpeg'); // Adjust path if necessary
+const algorithmImage = require('src\assets\Algorithm.jpeg'); // Adjust path if necessary
 const uniqueFeaturesData = [
   {
     title: 'CASE-1',
