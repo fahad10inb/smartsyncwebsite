@@ -2,7 +2,7 @@
 import React from 'react';
 import Feature from '../../components/feature/Feature';
 import './features.css';
-const algorithmImage = require('C:/DATASET2/SmartSync/SmartSync-Traffic/GCD AI/smartsync/src/assets/Algorithm.jpeg'); // Adjust path if necessary
+const algorithmImage = require('src\assets\Algorithm.jpeg'); // Adjust path if necessary
 const uniqueFeaturesData = [
   {
     title: 'Green Signal Time (GST)',
