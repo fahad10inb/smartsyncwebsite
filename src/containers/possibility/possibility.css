@@ -1,0 +1,141 @@
+
+
+
+.smartsync__possibility {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start; 
+    flex-direction: row;
+}
+
+
+
+.smartsync__possibility-heading {
+    flex: 0;
+    display: flex;
+    justify-content: flex-start; /* Maintains left alignment for content */
+    align-items: center;
+   
+    flex-direction: column;
+
+    text-align: left;
+    margin-right: 0; /* Remove right margin to avoid extra space */
+    /* Add the following line to shift the lines to the right */
+    text-shadow: -2px 0 var(--gradient-color); /* Adjust -2px for desired shift */
+}
+
+.smartsync__possibility-heading h1 {
+    font-size: 45px;
+    line-height: 45px;
+    font-weight: 800;
+    font-family: var(--font-family);
+}
+
+.smartsync__possibility-heading p {
+    color: var(--color-subtext);
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 500;
+    font-family: var(--font-family);
+
+    margin-top: 2rem;
+}
+
+
+.smartsync__possibility-container {
+    
+    flex: 1.5;
+    display: flex;
+   /* justify-content: space-between;*/
+   /* align-items: center;*/
+    flex-direction: row;
+    
+    
+    
+}
+
+.testcase-container {
+    display: flex; /* Added flex for horizontal alignment */
+    justify-content: space-between; /* Distribute items horizontally */
+    align-items: center; /* Vertically align content within container */
+    margin-bottom: 1rem; /* Add spacing between containers */
+    padding-right: 0px;
+    margin-left: 100px;
+  
+  }
+  
+
+.viewButton{
+    flex: 1.5;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+
+}
+
+.case1View{
+    border-radius: 50px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-image: linear-gradient(to right, #AE67FA ,#FF8A71);
+    margin-right:0px;
+    margin-left:180px;
+    background-color:black
+}
+.case2View{
+    border-radius: 50px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-image: linear-gradient(to right, #AE67FA ,#FF8A71);
+    margin-right:10px;
+    margin-left:15px;
+    background-color:black
+}
+.case3View{
+    border-radius: 50px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-image: linear-gradient(to right, #AE67FA ,#FF8A71);
+    margin-right:10px;
+    margin-left:50px;
+    background-color:black
+    
+}
+.case4View{
+    border-radius: 50px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-image: linear-gradient(to right, #AE67FA ,#FF8A71);
+    margin-right:175px;
+    margin-left:15px;
+    background-color:black
+}
+
+
+
+
+@media screen and (max-width: 990px) {
+    .smartsync__possibility {
+        flex-direction: column;
+    }
+
+    .smartsync__possibility-heading {
+        margin: 0 0 2rem 0;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .smartsync__possibility-heading h1 {
+        font-size: 28px;
+        line-height: 38px;
+    }
+}

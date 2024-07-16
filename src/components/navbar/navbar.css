@@ -1,0 +1,96 @@
+.smartsync__navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 1rem;
+}
+
+.smartsync__navbar-links{
+  flex: 1;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;   
+}
+
+.smartsync__navbar-links_logo{
+    margin-left: 3rem;
+}
+
+.smartsync__navbar-links_container{
+    display: flex;
+    flex-direction: row;
+    padding-left: 0px;
+
+
+}
+
+.smartsync__navbar-sign{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.smartsync__navbar-links_container p,
+    .smartsync__navbar-sign p,
+    .smartsync__navbar-menu_container p{
+        color:#fff;
+        font-family: var(--font-family);
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 25px;
+        text-transform: capitalize;
+
+        margin:0 1rem;
+        cursor:pointer;
+    }
+
+ .smartsync__navbar-menu_container{
+display:flex;
+justify-content: flex-end;
+align-items: flex-end;
+flex-direction: column;
+text-align: end;
+background: var(--color--footer);
+padding: 2rem;
+position: absolute;
+top: 40px;
+right: 0;
+margin-top: 1rem;
+min-width: 210px;
+border-radius: 5px;
+box-shadow: 0 0 5 rgba(0,0,0,0,2);
+ }
+
+.smartsync__navbar-menu_container p{
+    margin: 1rem 0;
+}
+
+.smartsync__navbar-menu_container-links-sign{
+    display: none;
+}
+
+@media screen and (max-width:1050px) {
+   .smartsync__navbar-links_container{
+    display: none;
+   } 
+   .smartsync__navbar-menu{
+    display: flex;
+   }
+
+}
+
+@media screen and (max-width:700px) {
+
+    .smartsync__navbar{
+       padding: 2rem;
+    }
+    .smartsync__navbar-sign{
+        display: none;
+    }
+    .smartsync__navbar-menu_container{
+        top:20px;
+    }
+    .smartsync__navbar-menu_container-links-sign{
+        display: block;
+    }
+} 

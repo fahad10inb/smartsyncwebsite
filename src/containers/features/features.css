@@ -1,0 +1,69 @@
+.smartsync__features {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end; 
+    flex-direction: row;
+  }
+
+  .smartsync__features-heading img {
+    width: 400px; 
+    height: 80px; 
+    margin: 6rem 0 0 2rem; 
+  }
+   
+  
+  .smartsync__features-heading {
+    flex: 1;
+    display: flex;
+    justify-content: flex-start; /* Maintains left alignment for content */
+    align-items: flex-start;
+    flex-direction: column;
+  
+    text-align: left;
+    margin-right: 0; /* Remove right margin to avoid extra space */
+    /* Add the following line to shift the lines to the right */
+    text-shadow: -2px 0 var(--gradient-color); /* Adjust -2px for desired shift */
+  }
+  
+  .smartsync__features-heading h1 {
+    font-size: 34px;
+    line-height: 45px;
+    font-weight: 800;
+    font-family: var(--font-family);
+  }
+  
+  .smartsync__features-heading p {
+    color: var(--color-subtext);
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 500;
+    font-family: var(--font-family);
+  
+    margin-top: 2rem;
+  }
+  
+  .smartsync__features-container {
+    flex: 1.5;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  @media screen and (max-width: 990px) {
+    .smartsync__features {
+      flex-direction: column;
+    }
+  
+    .smartsync__features-heading {
+      margin: 0 0 2rem 0;
+    }
+  }
+  
+  @media screen and (max-width: 550px) {
+    .smartsync__features-heading h1 {
+      font-size: 28px;
+      line-height: 38px;
+    }
+  }
+  
