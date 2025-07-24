@@ -1,74 +1,51 @@
-<<<<<<< HEAD
-# Getting Started with Create React App
+# SMARTSYNC TRAFFIC SYSTEM
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+SMARTSYNC TRAFFIC SYSTEM is an AI-powered solution designed to optimize traffic flow and reduce congestion at key intersections. By installing sensors to collect real-time vehicle data and leveraging a custom YOLO model for object detection, the system dynamically adjusts traffic light timings using a sophisticated algorithm to ensure smooth and efficient commuting.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- **Dynamic Traffic Light Control:** Uses real-time data from sensors to adjust green signal timings at intersections, optimizing traffic flow and reducing jams.
+- **YOLO-based Vehicle Detection:** Employs a custom YOLO model built with PyTorch for fast and accurate real-time vehicle detection.
+- **Advanced Algorithm:** Calculates efficient green signal durations by considering factors such as:
+  - Green Signal Time (GST)
+  - Accumulated Lag (A) and Transition Time (T)
+  - Extended Reaction Time for vehicles to safely navigate intersections
+- **Traffic Prediction:** Utilizes server-stored data to analyze movement patterns and forecast congestion for proactive traffic management.
 
-### `npm start`
+## Installation
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+To install the project dependencies, run the following command in the project directory:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+```bash
+npm install
+```
 
-### `npm test`
+## Running the Project
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+To start the development server and run the app locally, use:
 
-### `npm run build`
+```bash
+npm start
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Open [http://localhost:3000](http://localhost:3000) in your browser to view the app. The page will reload automatically when you make changes.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Project Structure
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- `public/` - Static files including HTML template, icons, and manifest.
+- `src/` - Source code for the React app.
+  - `components/` - Reusable UI components such as Navbar, Brand, CTA, Feature, Article.
+  - `containers/` - Main sections of the app including Header, Footer, Blog, Features, Smartsync (core system description), Possibility.
+  - `assets/` - Images and videos used in the app.
+- `package.json` - Project metadata and scripts.
 
-### `npm run eject`
+## Assets
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+The project includes various images and videos demonstrating the algorithm and traffic test cases, located in the `src/assets/` folder.
 
 ## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+To learn more about React and Create React App, check out the following resources:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-=======
-# smartsyncwebsite
->>>>>>> main
+- [React Documentation](https://reactjs.org/)
+- [Create React App Documentation](https://facebook.github.io/create-react-app/docs/getting-started)
